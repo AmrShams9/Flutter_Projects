@@ -3,10 +3,10 @@ A simple Flutter app that simulates rolling a dice. The app displays a random di
 
 📸 Screenshots
 🖥️ Main Screen
-Main Screen
+![Main Screen](MainScrren.PNG)
 
 🎲 Dice Faces
-Dice Faces
+![Dice Faces](rolledDice.PNG)
 
 ✨ Features
 🎲 Roll a virtual dice with a single button press.
