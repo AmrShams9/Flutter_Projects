@@ -1,69 +1,91 @@
-🎲 Dice Roller App
-A simple Flutter app that simulates rolling a dice. The app displays a random dice face when the user presses the "Roll Dice" button.
 
-📸 Screenshots
-🖥️ Main Screen
+
+---
+
+# 🎲 Dice Roller App
+
+A simple Flutter app that simulates rolling a dice. The app displays a random dice face (1 to 6) when the user presses the **"Roll Dice"** button.
+
+---
+
+## 📸 Screenshots
+
+### 🖥️ Main Screen  
 ![Main Screen](MainScrren.PNG)
 
-🎲 Dice Faces
+### 🎲 Dice Faces  
 ![Dice Faces](rolledDice.PNG)
 
-✨ Features
-🎲 Roll a virtual dice with a single button press.
+---
 
-🖼️ Displays a random dice face (1 to 6) after each roll.
+## ✨ Features
 
-🎨 Simple and intuitive user interface.
+- 🎲 Roll a virtual dice with a single button press.
+- 🖼️ Displays a random dice face (1 to 6) after each roll.
+- 🎨 Simple and intuitive user interface.
 
-🚀 Getting Started
-📋 Prerequisites
-Flutter SDK installed on your machine.
+---
 
-An IDE (e.g., Android Studio, Visual Studio Code) with Flutter and Dart plugins installed.
+## 🚀 Getting Started
 
-⚙️ Installation
-Clone the repository:
+### 📋 Prerequisites
 
-bash
-Copy
-git clone https://github.com/your-username/dice-roller-app.git
-Navigate to the project directory:
+Before you begin, ensure you have the following installed:
 
-bash
-Copy
-cd dice-roller-app
-Install dependencies:
+- Flutter SDK
+- An IDE (e.g., Android Studio or Visual Studio Code) with Flutter and Dart plugins
 
-bash
-Copy
-flutter pub get
-▶️ Running the App
-Connect a physical device or start an emulator.
+### ⚙️ Installation
 
-Run the app:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/dice-roller-app.git
+   ```
 
-bash
-Copy
-flutter run
-🗂️ Project Structure
-lib/main.dart: The main entry point of the application.
+2. **Navigate to the project directory:**
+   ```bash
+   cd dice-roller-app
+   ```
 
-assets/images/: Contains the dice face images (dice-1.png to dice-6.png).
+3. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
 
-pubspec.yaml: Manages dependencies and assets.
+---
 
-🎮 Usage
-Launch the app.
+### ▶️ Running the App
 
-Press the "Roll Dice" button to roll the dice.
+1. Connect a physical device or start an emulator.
+2. Run the app with the following command:
+   ```bash
+   flutter run
+   ```
 
-The app will display a random dice face.
+---
 
-🛠️ Troubleshooting
-Asset Not Found: Ensure that the dice images are correctly placed in the assets/images/ directory and declared in the pubspec.yaml file.
+## 🗂️ Project Structure
 
-yaml
-Copy
+- `lib/main.dart`: Main entry point of the application.
+- `assets/images/`: Contains the dice face images (`dice-1.png` to `dice-6.png`).
+- `pubspec.yaml`: Manages dependencies and assets.
+
+---
+
+## 🎮 Usage
+
+1. Launch the app.
+2. Press the **"Roll Dice"** button to roll the dice.
+3. The app will display a random dice face.
+
+---
+
+## 🛠️ Troubleshooting
+
+**Asset Not Found:**  
+If you encounter an asset not found error, make sure the dice images are correctly placed in the `assets/images/` directory and properly declared in the `pubspec.yaml` file:
+
+```yaml
 flutter:
   assets:
     - assets/images/dice-1.png
@@ -72,36 +94,41 @@ flutter:
     - assets/images/dice-4.png
     - assets/images/dice-5.png
     - assets/images/dice-6.png
-🤝 Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+```
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
 
-🎉 Enjoy Rolling the Dice! 🎉
-Icons Used
-🎲: Dice
+## 🤝 Contributing
 
-🖥️: Main Screen
+Contributions are welcome! Feel free to open an issue or submit a pull request for any improvements or bug fixes.
 
-📸: Screenshots
+---
 
-✨: Features
+## 📜 License
 
-🚀: Getting Started
+This project is licensed under the **MIT License**. See the LICENSE file for details.
 
-📋: Prerequisites
+---
 
-⚙️: Installation
+🎉 **Enjoy Rolling the Dice!** 🎉
 
-▶️: Running the App
+---
 
-🗂️: Project Structure
+## Icons Used
 
-🎮: Usage
+- 🎲 Dice
+- 🖥️ Main Screen
+- 📸 Screenshots
+- ✨ Features
+- 🚀 Getting Started
+- 📋 Prerequisites
+- ⚙️ Installation
+- ▶️ Running the App
+- 🗂️ Project Structure
+- 🎮 Usage
+- 🛠️ Troubleshooting
+- 🤝 Contributing
+- 📜 License
 
-🛠️: Troubleshooting
+---
 
-🤝: Contributing
-
-📜: License
