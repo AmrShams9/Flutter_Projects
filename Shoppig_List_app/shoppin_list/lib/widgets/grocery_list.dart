@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'package:shoppin_list/models/grocery_item.dart';
-import 'package:shoppin_list/models/category.dart';
-import 'package:shoppin_list/Widgets/new_item.dart';
 import 'package:shoppin_list/Widgets/new_item.dart';
 
 class GroceryList extends StatefulWidget {
